@@ -7,7 +7,7 @@ def oxford_comma(array)
   array.map do |fruit|
     array.join(", ")
     array.insert(2, "and ")
-  end
+    end
   else 
     array.join(", ")
   end 
